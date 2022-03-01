@@ -1,24 +1,27 @@
 
-
-
-@keyframes mymove {
-    0% {
-        background-color: black;
-    }
-    50%{
-        background-color: rgb(51, 48, 48);
-    }
-    100%{
-        background-color: black;
-    }
-} 
-
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
+.btn-secondary{
+  animation: glowing 5000ms infinite;
+}
 
+@keyframes glowing {
+  0% {
+    background-color: #4a5049;
+    box-shadow: 0 0 5px #d5dfd1;
+  }
+  50% {
+    background-color: #b9c7b4;
+    box-shadow: 0 0 20px #89c776;
+  }
+  100% {
+    background-color: #4a5049;
+    box-shadow: 0 0 5px #d5dfd1;
+  }
+}
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -37,8 +40,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
-  animation: mymove 10s infinite;
+  background-color: rgb(28, 26, 26);
+
 }
 
 body {
@@ -49,6 +52,11 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   color: #fff;
+}
+footer{
+  text-align: center;
+}
+.home {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
@@ -57,7 +65,9 @@ body {
   max-width: 42em;
 }
 
-
+ul h5{
+  text-align: center;
+}
 /*
  * Header
  */
@@ -99,6 +109,37 @@ body {
     float: right;
   }
 }
+.art{
+  margin: auto;
+}
+
+
+td{
+  height: 200px;
+  padding: 100px;
+  border: 6px solid white;
+}
+
+#one{
+  background-color: #247BA0;
+}
+
+#two{
+  background-color: #70C1B3;
+}
+
+#three{
+  background-color: #B2DBBF;
+}
+
+#four{
+  background-color: #F3FFBD;
+}
+
+#five{
+  background-color: #FF1654;
+}
+
 
 
 /*
@@ -120,20 +161,21 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
-
+/* ###################################################### */
 #earth {
-  /* [1] Allow it to contain the absolutely positions pseudo-elements (later-on) */
+  /* [1] */
   
   position: relative;
-  /* [2] Set-up the dimensions and spacing */
+  /* dimensions and spacing */
   width: 20px;
   height: 20px;
-  margin: 10px auto;
-  /* [3] Prepare the animation effects */
+  margin: 10px;
+  
+  /* [3]animation effects */
   transition: transform 1000ms linear;
   animation: rotate 10s linear infinite; /* This is going to be defined in the next step */
 
-  /* [4] Tweak the appearance, and give it a nice background i.e. the world map */
+  /* [4]appearance */
   color: #000;
   border-radius: 50%;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blue_Marble_2002.png/1920px-Blue_Marble_2002.png");
@@ -141,52 +183,45 @@ body {
   background-repeat: repeat / x;
   box-shadow: inset .5px 0 .5px 1px rgba(0, 0, 0, 1);
 
-  /* [5] Position things in a 3d space */
+  /* [5]3d space */
   transform-style: preserve-3d;
 }
 #earth:after {
-  /* [1] Break the flow to show this as an overlay */
+  /* [1]overlay */
   position: absolute;
   top: 0;
   left: 0;
 
-  /* [2] Make it take all the space available in the box (ahem... globe!) */
+  /* [2]space  */
   width: 100%;
   height: 100%;
 
-  /* [3] Make sure this has no generated content, as we want this just for fancy purposes */
+  /* [3]content */
   content: '';
 
-  /* [4] Give it some shape and shadow */
+  /* [4] shadow */
   border-radius: 50%;
   /* box-shadow: 0px 10px 10px 10px rgba(0,0,0,.9) inset; */
 }
 #earth:before {
-  /* [1] Again, break the flow to show this as an overlay */
+  /* [1] overlay */
   position: absolute;
   top: 0;
   left: 0;
 
-  /* [2] Again, give it all the available space */
+  /* [2] space */
   width: 100%;
   height: 100%;
 
-  /* [3] Duh. */
+  /* [3] */
   content: '';
 
-  /* [4] Add some shape and overlay effect to it */
+  /* [4] shape */
   opacity: .02;
   border-radius: 50%;
   background: radial-gradient(circle at 20px 20px, #fff, #000);
 }
 @keyframes rotate {
-  0% {background-position: 0% 50%;}
-
-  25% {background-position: -30% 50%;}
-
-  50% {background-position: -60% 50%;}
-
-  75% {background-position: -90% 50%;}
-
-  100% {background-position: -120% 50%;}
+  0% {background-position: 25% 50%;}
+  100% {background-position: -125% 50%;}
 }
