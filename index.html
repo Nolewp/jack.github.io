@@ -1,62 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Welcome!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Welcome!</title>
 </head>
-<body class="home">
-  <body class="text-center">
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-         
-          <h3 class="masthead-brand">Jack Ochs</h3>
-          
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" href="projects.html">Projects</a>
-            <a class="nav-link" href="contact.html">Resume</a>
-          </nav>
+<body> 
+    <div class="bg-light-gray"> 
+        <div class="bg-blue" id="navagation">
+            <header class="fixed-top">
+                <nav class="navbar navbar-expand-md navbar-fixed-top ">
+                    <a class="navbar-brand" id="brand" href=""><img id="JO" src="jo2.png" width="250" height="40" maxwidth = "50%"alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item p-2">
+                                <a class="nav-link" href="#about">Home</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
         </div>
-      </header>
-
-      <main role="main" class="inner cover">
-        <div class="text-center">
-        
-        <h1 class="cover-heading">Geospatial problem solver</h1>
-        <p class="lead">I enjoy problem solving and optimization. I leverage code to automate workflows and perform complex spatial analysis. My tools of the trade include ArcGIS, Python and JS.</p>
-        <p class="lead">
-          <div class="glow">
-          <a href="projects.html" class="btn btn-lg btn-secondary">See some of my work</a>
-        </div>
-        </p>
-      </div>
-      </main>
-
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Reach out to me on Linkedin at <a href="https://www.linkedin.com/in/jack-ochs-893386143/">Jack Ochs</a>.</p>
-          <h1 href="" id="earth"></h1>
-        </div>
-       
-      </footer>
-      
+            <div class="container">
+                <section id="about">
+                        <div class="container text-center">
+                            <div class=""> 
+                                <h1 class="">Geospatial problem solver</h1>
+                                <p class="lead">I enjoy problem solving and optimization. I leverage code to automate workflows and perform complex spatial analysis. My tools of the trade include ArcGIS, Python and JS.</p>
+                                <p class="lead">
+                                    <div class="glow">
+                                        <a href="#projects" class="btn btn-lg btn-secondary">See some of my work</a>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                </section>
+            </div>
+            <div class="container">
+            <section id="projects">
+                <div class="container text-center">
+                    <h1>Hello this is where I will have links to projects, a work in progress!</h1>
+                    <div class="d-flex justify-content-center flex-wrap">
+                        <table class= "d-flex justify-content-center flex-wrap">
+                            <td id="one"></td>
+                            <td id="two"></td>
+                            <td id="three"></td>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        <div class="container">
+            <section id="resume">
+                
+                <div class="float-left">
+                    <div class="text-center">
+                        <h3>
+                        About me
+                        </h4\3>
+                    </div>
+                    <h4>
+                        Work Experience	
+                    </h4>
+                    <ul>
+                        <li>
+                        <h4>NV5</h4>
+                        <h5>Geospatial Technician I</h5>
+                        <ul>
+                        <li>Utilize remote sensing skills to extract GEOINT project specific information from satellite imagery..</li>
+                        <li>Solve complex spatial problems with custom python ArcGIS tools through the arcpy module.</li>
+                        </ul>
+                        </li>
+                        <li>
+                        <h4>UDC inc.</h4>
+                        <h5>GIS Technician I</h5>
+                        <ul>
+                        <li>Coordinate with team members and off-shore partners to verify quality of 3-D rendered structural models to ensure client needs are met in a timely fashion</li>
+                        <li>Explore means of productivity enhancement though python and excel. </li>
+                        </ul>
+                        </li>
+                        <li>
+                        <h4>Northwest Florida Water Management District</h4>
+                        <h5>OPS-GIS Analyst	</h5>
+                        <ul>
+                            <li>Assisted in the production of an extensive catalog of shapefiles that represent features of the greater Northwest Florida Area from remote sensed optical aerial imagery.</li>
+                            <li>Increased employee  productivity through the implementation of a system that utilized Survey123 to capture real-time data in the field and expedite.</li>
+                        </ul>
+                        </li>
+                    </ul>
+                    <h4>Education</h4>
+                    <ul>
+                        <li>
+                        <h4>University of South Florida</h4>
+                        <h5>Masters level course work </h5>
+                        <ul>
+                            <li>Advanced GIS – implement model builder in ArcGIS 10.8 to replicate work flows, perform raster data tasks, suitability analysis and network analysis.</li>	
+                            <li>Programming for GIS utilizing python to create features and create work flows without a GUI to harness geospatial operations available in ArcPy. </li>
+                        
+                        </ul>
+                        </li>
+                        <li>
+                        <h4>Florida State University </h4>
+                        <h5>Bachelor of Science in Environmental Science </h5>
+                        <ul>
+                            <li>Wholistic education with courses from biology, environmental law, hydrology, GIS, and various geosciences.</li>	
+                            <li>Gained practical knowledge in environmental fieldwork and environmental law including environmental resource permitting. </li>
+                        </ul>
+                        </li>
+                        <li>
+                        <h4>Broward College</h4>
+                        <h5>Certification in Geographic Information Systems (GIS) </h5>
+                        <ul>
+                            <li>Courses in human geography, GIS applications, 3-D rendering and remote sensing</li>	
+                        
+                        
+                        </ul>
+                        </li>
+                </div>
+            </div>
+            </section>
+            <section id="contact">
+            <div class= "container text-center" >
+                <footer class="">
+                    <div >
+                        <p>Reach out to me on Linkedin at <a href="https://www.linkedin.com/in/jack-ochs-893386143/">Jack Ochs</a>.</p>
+                        <h1 href="" id="earth"></h1>
+                        <p> lets solve spatial problems!</p>
+                    </div>
+                
+                </footer>
+            </div>
+            </section>
     </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-  </body>
-  
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
