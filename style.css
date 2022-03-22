@@ -45,11 +45,18 @@ nav {
     box-shadow: 0 0 5px #d5dfd1;
   }
 }
-
-td{
-  height: 10px;
-  padding: 10px;
-  border: 6px solid white;
+table {
+  text-align: center;
+  margin-top: 10vh;
+}
+#proj {
+  max-width: 25vw;
+  max-height: 25vh;
+  padding: 2vw;
+}
+#proj:hover {
+  box-shadow: 0 0 5px #54943b;
+  border-radius: 5px;
 }
 
 #one{
