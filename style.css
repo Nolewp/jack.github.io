@@ -1,23 +1,32 @@
-
-section {
-  padding-top: 10%;
-  margin-top: 10;
-  height: 100vh;
-}
-#about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
 nav {
   background-color:#8eaf87;
 }
 .nav-link {
   color: #000;
 }
-.nav-link:hover { color: rgb(228, 226, 226) !important; }
+.nav-link:hover { 
+  color: rgb(228, 226, 226) !important; 
+}
+.top-margin {
+  margin-top: 2vh;
+}
+section {
+  padding-top: 10%;
+  margin-top: 10;
+  height: 100vh;
+}
+#projects{
+  min-height: 75vh;
+  height: fit-content;
+  justify-content: center;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90vh;
+}
 
 #contact {
   height: auto;
@@ -45,30 +54,17 @@ nav {
     box-shadow: 0 0 5px #d5dfd1;
   }
 }
-table {
-  text-align: center;
-  margin-top: 10vh;
-}
+
 #proj {
-  max-width: 25vw;
-  max-height: 25vh;
-  padding: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
 }
 #proj:hover {
-  box-shadow: 0 0 5px #54943b;
+  box-shadow: 0 0 10px #54943b;
   border-radius: 5px;
-}
-
-#one{
-  background-color: #247BA0;
-}
-
-#two{
-  background-color: #70C1B3;
-}
-
-#three{
-  background-color: #B2DBBF;
 }
 
 ul{
@@ -82,7 +78,23 @@ ul li ul{
   list-style-type: circle;
 }
 
+.box {
+  margin-right: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: center;
+}
 
+.box-child {
+  padding: 1vw;
+  width: 250px;
+  text-align: center;
+}
+
+.min-context {
+  
+}
 
 
 /* ###################################################### */
