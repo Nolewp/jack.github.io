@@ -173,24 +173,38 @@
                 <footer class="">
                     <div >
                         <p>Reach out to me on Linkedin at <a href="https://www.linkedin.com/in/jack-ochs-893386143/">Jack Ochs</a>.</p>
-                        <form action="https://formsubmit.co/el/wawape" method="post">
-                            <!-- <input type="text" name="secret" style="display: none;">
-                       
-
-                            <input type="hidden" name="_captcha" value="false" /> -->
-
-
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
-                    
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                    
-                            <label for="comment">Comment:</label>
-                            <textarea id="comment" name="comment" rows="4" required></textarea>
-                    
-                            <button type="submit">Submit</button>
-                        </form>
+                        <p> Or </p>
+                        <div class="form">
+                            <div class="col-md-8 offset-md-2">
+                                <h1>Send Message</h1>
+                                <div class="errors">
+                                                </div>
+                                <form method="POST" id="target" action="https://formsubmit.co/el/wawape">
+                                                   
+                                    <div class="form-group">
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <label for="name">Full Name</label>
+                                                <input type="text" id="name" name="name" class="form-control" required="" value="">
+                                            </div>
+                                            <div class="col">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" id="email" name="email" class="form-control" required="" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+      
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea id="message" class="form-control" name="message" rows="8" required=""></textarea>
+                                    </div>
+                                    <input type="hidden" value="" name="url">
+                                    <button type="submit" class="btn btn-lg btn-dark btn-block">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
                         <h1 href="" id="earth"></h1>
                         <p>Let's solve problems!</p>
                     </div>
