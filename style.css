@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-  background-color:#8eaf87;
+  background-color:rgb(122, 185, 157);
 }
 .nav-link {
   color: #000;
@@ -52,7 +52,7 @@ section {
   }
   50% {
     background-color: #b9c7b4;
-    box-shadow: 0 0 20px #89c776;
+    box-shadow: 0 0 20px rgb(122, 185, 157);
   }
   100% {
     background-color: #4a5049;
