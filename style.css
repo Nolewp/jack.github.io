@@ -63,13 +63,13 @@ section {
 #proj {
   margin-top: 1vh;
   margin-bottom: 1vh;
-  width: 75px;
-  height: 75px;
-  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
 }
 #proj:hover {
   box-shadow: 0 0 10px #54943b;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 ul{
