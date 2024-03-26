@@ -8,6 +8,7 @@
     <link rel="ICON" href="./images/headers/JOEarth.png" type="image/ico" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Jack Ochs</title>
 </head>
 <body> 
@@ -55,45 +56,76 @@
             </div>
             
             <section id="projects">
-                <div class="">
-                    <div class="container text-center">
-                        <h1 class="top-margin">Hello this is where I have links to some projects!</h1>
-                    </div>
-                    <div class="box">
-                        <div class="box-child">
-                            <a href="https://nolewp.github.io/waterpolo/"><img id="proj" src="./images/projects/waterpoloball.png" alt="" href=""></a>
-                            <p class="min-context">Water Polo play recorder.</p>
-                        </div>
-                        <div class="box-child">
-                            <a href="https://nolewp.github.io/Bonaire2023/"><img id="proj" src="./images/projects/Bonaire.png" alt="" href=""></a>
-                            <p class="min-context">This is a dive log web map of my vacation to Bonaire.</p>
-                        </div>
-                        
-                        <div class="box-child">
-                            <a  href="https://nolewp.github.io/weather/"><img id="proj" src="./images/projects/clound.png" alt=""></a>
-                            <p class="min-context">Weather web application uses leaflet lat lon function and an api to gather local weather information.</p>
-                        </div>
 
-                        <div class="box-child">
-                            <a  href="https://nolewp.github.io/comps/"><img id="proj" src="./images/projects/home.png" alt=""></a>
-                            <p class="min-context">Home price per sqr. ft. comparison calculator. Realtors often use comps to determine a estimated price for a home. </p>
-                        </div>
-
-                        <div class="box-child">
-                            <a href="JOSuitabilityAnalysis.pdf"><img id="proj" src="./images/projects/proj3.png" alt="" href=""></a>
-                            <p class="min-context">Site selection analysis in Arcgis model builder to determine highly suitable solar farm locations in Florida.</p>
-                        </div>
-                        
-                        <div class="box-child">
-                            <a  href="https://arcg.is/0qzuSz"><img id="proj" src="./images/projects/proj4.png" alt=""></a>
-                            <p class="min-context" >Esri story map with geospatial data to examin a rural Louisiana community.</p>
-                        </div>
-                        <div class="box-child">
-                            <a  href="https://nolewp.github.io/EvansSongs/"><img id="proj" src="./images/projects/GuitarPracticeV30.PNG" alt=""></a>
-                            <p class="min-context" >Fun browser media player with shuffle!</p>
-                        </div>
-                    </div>
+                <div class="container mx-auto text-center my-1">
+                    <h1 class="mt-8 text-3xl font-bold">Hello, this is where I have links to some projects!</h1>
                 </div>
+                <div class="flex flex-wrap justify-center items-start">
+            
+                    <div class="w-48 mx-4 mb-0 ">
+                        <div class="rounded-lg overflow-hidden">
+                            <a href="https://nolewp.github.io/waterpolo/"  class="flex w-full justify-center items-center">
+                                <img id="proj" class="shadow-md hover:shadow-lg transition-all duration-200" src="./images/projects/waterpoloball.png" alt="link to one of jacks projects">
+                            </a>
+                            <p class="p-4  text-sm text-center">Water Polo play recorder. Allows users to svae and record playss!</p>
+                        </div>
+                    </div>
+                
+                    <div class="w-48 mx-4 mb-0 ">
+                        <div class="rounded-lg overflow-hidden">
+                            <a href="https://nolewp.github.io/leafmap/" class="flex w-full justify-center items-center">
+                                <img id="proj" class="shadow-md hover:shadow-lg transition-all duration-200" src="./images/projects/Bonaire.png" alt="link to one of jacks projects">
+                            </a>
+                            <p class="p-4  text-sm text-center">This is a dive log web map of my vacation to Bonaire.</p>
+                        </div>
+                    </div>
+                
+                    <div class="w-48 mx-4 mb-8">
+                        <div class="rounded-lg overflow-hidden">
+                            <a href="https://nolewp.github.io/weather/" class="flex w-full justify-center items-center">
+                                <img id="proj" class="shadow-md hover:shadow-lg transition-all duration-200" src="./images/projects/clound.png" alt="link to one of jacks projects">
+                            </a>
+                            <p class="p-4  text-sm text-center">Weather web application uses leaflet lat lon function and an api to gather local weather information.</p>
+                        </div>
+                    </div>
+            
+                
+                    <div class="w-48 mx-4 mb-8 flex justify-center">
+            
+                        <div class="rounded-lg overflow-hidden justify-center">
+                        <a  href="https://nolewp.github.io/comps/" class="flex w-full justify-center items-center"> 
+                            <img   id="proj" class="shadow-md hover:shadow-lg transition-all duration-200" src="./images/projects/home.png" alt="link to one of jacks projects" ></a>
+                        <p  class="p-4  text-sm text-center" >Home price per sqr. ft. comparison calculator. Realtors often use comps to determine a estimated price for a home. </p>
+                        </div>
+                    </div> 
+            
+                    <div class="w-48 mx-4 mb-8 flex justify-center">
+            
+                        <div class="rounded-lg overflow-hidden">
+                        <a href="JOSuitabilityAnalysis.pdf" class="flex w-full justify-center items-center"> 
+                            <img   id="proj" class="shadow-md hover:shadow-lg transition-all duration-200" src="./images/projects/proj3.png" alt="link to one of jacks projects" class="mx-auto" ></a>
+                        <p  class="p-4  text-sm text-center" >Site selection analysis in Arcgis model builder to determine highly suitable solar farm locations in Florida.</p>
+                        </div>
+                    </div> 
+                    
+                    <div class="w-48 mx-4 mb-8">
+                        <div class="rounded-lg overflow-hidden">
+                        <a  href="https://arcg.is/0qzuSz"class="flex w-full justify-center items-center"> 
+                            <img id="proj" class="shadow-md hover:shadow-lg transition-all duration-200" src="./images/projects/proj4.png" alt="link to one of jacks projects' %}"></a>
+                        <p  class="p-4  text-sm text-center"  >Esri story map with geospatial data to examin a rural Louisiana community.</p>
+                        </div>
+                    </div> 
+            
+                    <div class="w-48 mx-4 mb-8">
+                        <div class="rounded-lg overflow-hidden">
+                        <a  href="https://nolewp.github.io/EvansSongs/" class="flex w-full justify-center items-center"> 
+                            <img id="proj" class="shadow-md hover:shadow-lg transition-all duration-200"src="./images/projects/GuitarPracticeV30.PNG" alt="link to one of jacks projects"></a>
+                        <p  class="p-4  text-sm text-center"  >Fun browser media player with shuffle!</p>
+                        </div>
+                    </div> 
+                    
+                </div>
+        
             </section>
         <div class="container">
             <section id="resume">

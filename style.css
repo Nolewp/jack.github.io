@@ -69,7 +69,7 @@ section {
 }
 #proj:hover {
   box-shadow: 0 0 10px #54943b;
-  border-radius: 7px;
+  /* border-radius: 7px; */
 }
 
 ul{
