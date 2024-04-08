@@ -17,7 +17,7 @@ nav {
 section {
   padding-top: 10%;
   margin-top: 10;
-  height: 100vh;
+  min-height: 100vh;
 }
 #projects{
   min-height: 75vh;
@@ -32,9 +32,9 @@ section {
   min-height: 90vh;
 }
 
-#contact {
+/* #contact {
   height: auto;
-}
+} */
 
 .bg-light-gray {
   background-color: rgb(247, 245, 245);
@@ -79,13 +79,11 @@ ul h5{
   text-align: center;
   color: #214608;
 }
+
 ul li ul{
   list-style-type: circle;
 }
 
-.resume li ul{
-  padding-left: 10px;
-}
 
 .box {
   
